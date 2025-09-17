@@ -1,4 +1,5 @@
 import logger from '#config/logger.js';
+import authRoutes from '#routes/auth.routes.js';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import express from 'express';
@@ -21,7 +22,22 @@ app.use(
 
 app.get('/', (req, res) => {
   logger.info('Hello from Accusations!');
-  res.status(200).send({ message: 'Hello from Accusations!' });
+
+  res.status(200).send('Hello from Accusations!');
 });
+
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'OK',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+  });
+});
+
+app.get('/api', (req, res) => {
+  res.status(200).json({ message: 'Accusations API is Running!' });
+});
+
+app.use('/api/auth', authRoutes);
 
 export default app;
