@@ -1,18 +1,10 @@
-import { signup } from '#controllers/auth.controller.js';
+import { signin, signout, signup } from '#controllers/auth.controller.js';
 import express from 'express';
 
 const router = express.Router();
 
 router.post('/sign-up', signup);
-
-router.post('/sign-in', (req, res) => {
-  // Handle sign-in
-  res.send('Sign-in route');
-});
-
-router.post('/sign-out', (req, res) => {
-  // Handle sign-out
-  res.send('Sign-out route');
-});
+router.post('/sign-in', signin);
+router.post('/sign-out', signout);
 
 export default router;
