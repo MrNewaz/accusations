@@ -55,3 +55,130 @@
 {"level":"info","message":"::1 - - [18/Sep/2025:11:33:57 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 17:33:57"}
 {"level":"info","message":"User signed out successfully","service":"accusations-api","timestamp":"2025-09-18 17:34:36"}
 {"level":"info","message":"::1 - - [18/Sep/2025:11:34:36 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 17:34:36"}
+{"level":"info","message":"Hello from Accusations!","service":"accusations-api","timestamp":"2025-09-18 21:39:29"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:39:29 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"accusations-api","timestamp":"2025-09-18 21:39:29"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:39:43","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:39:43 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:39:43"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:40:21","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:40:21 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:40:21"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:40:53","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:40:53 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:40:53"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:13","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:13 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:13"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:14","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:14 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:14"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:15","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:15 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:15"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:16","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:16 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:16"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:16","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:16 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:16"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:17","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:17 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:17"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:17","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:17 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:17"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:18","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:18 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:18"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:18","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:18 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:18"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:19","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:19 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:19"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:19","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:19 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:19"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:20","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:20 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:20"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:20","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:20 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:20"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:21","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:21 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:21"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:21","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:21 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:21"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:22","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:22 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:22"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:22","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:22 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:22"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:23","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:23 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:23"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:23","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:23 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:23"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:24","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:24 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:24"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:24","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:24 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:24"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:25","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:25 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:25"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:25","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:25 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:25"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:41:26","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:41:26 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:41:26"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:42:12","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:42:12 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:42:12"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:42:16","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:42:16 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:42:16"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:42:25","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:42:25 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"accusations-api","timestamp":"2025-09-18 21:42:25"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:43:14","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:43:14 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:43:14"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:44:03","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:03 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:03"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:44:04","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:04 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:04"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:17 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:17"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:20 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:20"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:20 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:20"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:21 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:21"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:21 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:21"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:22"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:22"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:23 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:23"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:23 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:23"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:23 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:23"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:24 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:24"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:24 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:24"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:25 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:25"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:25 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:25"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:26 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:26"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:26 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:26"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:26 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:26"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:27 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:27"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:27 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:27"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:28 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:28"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:28 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:28"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:29 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:29"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:29 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:29"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:29 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:29"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:30 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:30"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:30 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:30"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:31 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:31"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:31 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:31"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:32 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:32"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:32 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:32"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:32"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:33 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:33"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:33 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:33"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:34 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:34"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:34 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:34"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:35 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:35"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:35 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:35"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:51 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:51"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:44:51 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:44:51"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:46:26","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:46:26 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:46:26"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"accusations-api","timestamp":"2025-09-18 21:46:27","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:46:27 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:46:27"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health/","service":"accusations-api","timestamp":"2025-09-18 21:46:32","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:46:32 +0000] \"GET /health/ HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:46:32"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"accusations-api","timestamp":"2025-09-18 21:47:23","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:47:23 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"accusations-api","timestamp":"2025-09-18 21:47:23"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health/","service":"accusations-api","timestamp":"2025-09-18 21:48:17","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:48:17 +0000] \"GET /health/ HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:48:17"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"accusations-api","timestamp":"2025-09-18 21:48:22","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:48:22 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:48:22"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"accusations-api","timestamp":"2025-09-18 21:48:24","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:48:24 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:48:24"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"accusations-api","timestamp":"2025-09-18 21:50:01","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:50:01 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:50:01"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"accusations-api","timestamp":"2025-09-18 21:50:02","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:50:02 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:50:02"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"accusations-api","timestamp":"2025-09-18 21:51:48","userAgent":"PostmanRuntime/7.37.3"}
+{"level":"info","message":"::1 - - [18/Sep/2025:15:51:48 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.37.3\"","service":"accusations-api","timestamp":"2025-09-18 21:51:48"}

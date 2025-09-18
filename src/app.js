@@ -1,4 +1,5 @@
 import logger from '#config/logger.js';
+import securityMiddleware from '#middleware/security.middleware.js';
 import authRoutes from '#routes/auth.routes.js';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
@@ -19,6 +20,8 @@ app.use(
     stream: { write: message => logger.info(message.trim()) },
   })
 );
+
+app.use(securityMiddleware);
 
 app.get('/', (req, res) => {
   logger.info('Hello from Accusations!');
