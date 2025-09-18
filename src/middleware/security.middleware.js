@@ -31,6 +31,8 @@ const securityMiddleware = async (req, res, next) => {
 
     const decision = await client.protect(req);
 
+    console.log('Arcjet decision:', decision.reason);
+
     if (decision.isDenied() && decision.reason.isBot()) {
       logger.warn('Bot request blocked', {
         ip: req.ip,
