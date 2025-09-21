@@ -319,3 +319,4 @@
 {"level":"info","message":"::1 - - [18/Sep/2025:17:16:19 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-18 17:16:19"}
 {"level":"info","message":"::1 - - [18/Sep/2025:17:16:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-18 17:16:49"}
 {"level":"info","message":"::1 - - [18/Sep/2025:17:17:19 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-18 17:17:19"}
+{"level":"info","message":"::1 - - [18/Sep/2025:17:17:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-18 17:17:49"}
