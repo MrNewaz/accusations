@@ -34,8 +34,11 @@ export const authenticateUser = async ({ email, password }) => {
       throw new Error('User not found');
     }
 
-    const isPasswordValid = await comparePassword(password, existingUser.password);
-    
+    const isPasswordValid = await comparePassword(
+      password,
+      existingUser.password
+    );
+
     if (!isPasswordValid) {
       throw new Error('Invalid password');
     }
@@ -50,11 +53,14 @@ export const authenticateUser = async ({ email, password }) => {
     return existingUser;
   } catch (error) {
     logger.error('Error authenticating user:', error);
-    
-    if (error.message === 'User not found' || error.message === 'Invalid password') {
+
+    if (
+      error.message === 'User not found' ||
+      error.message === 'Invalid password'
+    ) {
       throw new Error('Invalid email or password');
     }
-    
+
     throw new Error('Failed to authenticate user');
   }
 };

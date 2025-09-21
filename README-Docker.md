@@ -98,7 +98,7 @@ docker-compose -f docker-compose.dev.yml ps
 When running in development mode, you get:
 
 - **Application**: http://localhost:3000
-- **Neon Local Proxy**: localhost:5432 
+- **Neon Local Proxy**: localhost:5432
 - **Adminer** (optional): http://localhost:8080 (admin profile)
   - Server: `neon-local`
   - Username: `neon`
@@ -109,7 +109,7 @@ When running in development mode, you get:
 ✅ **Ephemeral Branches**: Each container restart creates a fresh database branch  
 ✅ **Hot Reloading**: Source code changes are reflected immediately  
 ✅ **Database Admin**: Built-in Adminer for database inspection  
-✅ **Health Checks**: Automatic service health monitoring  
+✅ **Health Checks**: Automatic service health monitoring
 
 ## Production Environment Setup
 
@@ -167,40 +167,42 @@ docker-compose -f docker-compose.prod.yml logs -f app
 📊 **Resource Limits**: CPU and memory constraints  
 💾 **Health Checks**: Application and database health monitoring  
 🔄 **Auto Restart**: Automatic container restart on failure  
-🚀 **Performance**: Optimized for production workloads  
+🚀 **Performance**: Optimized for production workloads
 
 ## Environment Variables
 
 ### Required Variables
 
-| Variable | Development | Production | Description |
-|----------|-------------|------------|-------------|
-| `NODE_ENV` | `development` | `production` | Application environment |
-| `DATABASE_URL` | Neon Local URL | Neon Cloud URL | Database connection string |
-| `NEON_API_KEY` | ✅ Required | ❌ Not needed | Neon API key for Local |
-| `NEON_PROJECT_ID` | ✅ Required | ❌ Not needed | Neon project identifier |
-| `PARENT_BRANCH_ID` | ✅ Required | ❌ Not needed | Parent branch for ephemeral branches |
+| Variable           | Development    | Production     | Description                          |
+| ------------------ | -------------- | -------------- | ------------------------------------ |
+| `NODE_ENV`         | `development`  | `production`   | Application environment              |
+| `DATABASE_URL`     | Neon Local URL | Neon Cloud URL | Database connection string           |
+| `NEON_API_KEY`     | ✅ Required    | ❌ Not needed  | Neon API key for Local               |
+| `NEON_PROJECT_ID`  | ✅ Required    | ❌ Not needed  | Neon project identifier              |
+| `PARENT_BRANCH_ID` | ✅ Required    | ❌ Not needed  | Parent branch for ephemeral branches |
 
 ### Optional Variables
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `PORT` | `3000` | Application port |
-| `LOG_LEVEL` | `info` | Logging level |
+| Variable     | Default                    | Description        |
+| ------------ | -------------------------- | ------------------ |
+| `PORT`       | `3000`                     | Application port   |
+| `LOG_LEVEL`  | `info`                     | Logging level      |
 | `ARCJET_ENV` | `development`/`production` | Arcjet environment |
-| `ARCJET_KEY` | - | Arcjet API key |
+| `ARCJET_KEY` | -                          | Arcjet API key     |
 
 ## Database Configuration
 
 The application automatically detects the environment and uses the appropriate database driver:
 
 ### Development (Neon Local)
+
 - **Driver**: `pg` (PostgreSQL driver)
 - **Connection**: Through Neon Local proxy
 - **SSL**: Self-signed certificates (rejectUnauthorized: false)
 - **Features**: Ephemeral branches, local development
 
 ### Production (Neon Cloud)
+
 - **Driver**: `@neondatabase/serverless`
 - **Connection**: Direct to Neon Cloud
 - **SSL**: Full SSL verification
@@ -271,6 +273,7 @@ docker inspect --format='{{.State.Health.Status}}' accusations-app-dev
 **Problem**: Cannot connect to Neon Local proxy
 
 **Solutions**:
+
 ```bash
 # Check Neon Local container logs
 docker-compose -f docker-compose.dev.yml logs neon-local
@@ -287,9 +290,10 @@ docker-compose -f docker-compose.dev.yml exec app ping neon-local
 **Problem**: SSL connection errors with Neon Local
 
 **Solution**: Ensure your database configuration includes:
+
 ```javascript
 ssl: {
-  rejectUnauthorized: false
+  rejectUnauthorized: false;
 }
 ```
 
@@ -298,6 +302,7 @@ ssl: {
 **Problem**: Container exits immediately
 
 **Solutions**:
+
 ```bash
 # Check application logs
 docker-compose -f docker-compose.dev.yml logs app
@@ -314,6 +319,7 @@ docker-compose -f docker-compose.dev.yml exec app node -e "console.log(process.e
 **Problem**: Port 3000 or 5432 already bound
 
 **Solutions**:
+
 ```bash
 # Find process using port
 lsof -i :3000
@@ -384,11 +390,13 @@ docker inspect accusations-app-dev | grep -A 10 "Health"
 ## Security Considerations
 
 ### Development
+
 - Self-signed certificates are acceptable for Neon Local
 - Environment variables stored in `.env.development`
 - Database branches are ephemeral and isolated
 
 ### Production
+
 - Use proper SSL certificates with Neon Cloud
 - Store secrets securely (Docker secrets, environment injection)
 - Enable security headers and HTTPS
@@ -406,7 +414,7 @@ docker inspect accusations-app-dev | grep -A 10 "Health"
 ## Support
 
 - **Application Issues**: Check application logs and health endpoints
-- **Database Issues**: Verify Neon credentials and connection strings  
+- **Database Issues**: Verify Neon credentials and connection strings
 - **Docker Issues**: Review container logs and resource usage
 - **Neon Local**: Refer to [Neon Local Documentation](https://neon.com/docs/local/neon-local)
 
