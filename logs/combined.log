@@ -320,3 +320,83 @@
 {"level":"info","message":"::1 - - [18/Sep/2025:17:16:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-18 17:16:49"}
 {"level":"info","message":"::1 - - [18/Sep/2025:17:17:19 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-18 17:17:19"}
 {"level":"info","message":"::1 - - [18/Sep/2025:17:17:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-18 17:17:49"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:07:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:07:37"}
+{"level":"info","message":"Hello from Accusations!","service":"accusations-api","timestamp":"2025-09-21 10:07:57"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:07:57 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"accusations-api","timestamp":"2025-09-21 10:07:57"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:07:57 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"accusations-api","timestamp":"2025-09-21 10:07:57"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:08:07 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:08:07"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:08:31 +0000] \"GET /api/users HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"accusations-api","timestamp":"2025-09-21 10:08:31"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:08:37 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:08:37"}
+{"email":"admin@saif.com","id":1,"level":"info","message":"User authenticated successfully:","service":"accusations-api","timestamp":"2025-09-21 10:08:43"}
+{"level":"info","message":"User signed in: admin@saif.com","service":"accusations-api","timestamp":"2025-09-21 10:08:43"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:08:43 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:08:43"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:09:07 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:09:07"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:09:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:09:38"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:10:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:10:08"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:10:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:10:38"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:11:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:11:08"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:11:38 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:11:38"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:12:09 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:12:09"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:12:39 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:12:39"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:13:09 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:13:09"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:13:39 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:13:39"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:14:10 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:14:10"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:14:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:14:40"}
+{"email":"admin@saif.com","id":1,"level":"info","message":"User authenticated successfully:","service":"accusations-api","timestamp":"2025-09-21 10:14:51"}
+{"level":"info","message":"User signed in: admin@saif.com","service":"accusations-api","timestamp":"2025-09-21 10:14:51"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:14:51 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:14:51"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:15:10 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:15:10"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:15:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:15:40"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:16:10 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:16:10"}
+{"level":"info","message":"User authenticated: admin@saif.com (admin)","service":"accusations-api","timestamp":"2025-09-21 10:16:12"}
+{"level":"info","message":"Getting users...","service":"accusations-api","timestamp":"2025-09-21 10:16:12"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:16:13 +0000] \"GET /api/users HTTP/1.1\" 200 355 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:16:13"}
+{"level":"info","message":"User authenticated: admin@saif.com (admin)","service":"accusations-api","timestamp":"2025-09-21 10:16:25"}
+{"level":"info","message":"Getting users...","service":"accusations-api","timestamp":"2025-09-21 10:16:25"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:16:25 +0000] \"GET /api/users HTTP/1.1\" 200 355 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:16:25"}
+{"level":"info","message":"User authenticated: admin@saif.com (admin)","service":"accusations-api","timestamp":"2025-09-21 10:16:36"}
+{"level":"info","message":"Getting users...","service":"accusations-api","timestamp":"2025-09-21 10:16:36"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:16:36 +0000] \"GET /api/users HTTP/1.1\" 200 355 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:16:36"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:16:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:16:40"}
+{"ip":"::ffff:192.168.65.1","level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"accusations-api","timestamp":"2025-09-21 10:16:43","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:16:43 +0000] \"GET /api/users HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"accusations-api","timestamp":"2025-09-21 10:16:43"}
+{"ip":"::ffff:192.168.65.1","level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"accusations-api","timestamp":"2025-09-21 10:16:48","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:16:48 +0000] \"GET /api/users HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"accusations-api","timestamp":"2025-09-21 10:16:48"}
+{"ip":"::ffff:192.168.65.1","level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"accusations-api","timestamp":"2025-09-21 10:16:51","userAgent":"PostmanRuntime/7.46.1"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:16:51 +0000] \"GET /api/users HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:16:51"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:17:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:17:11"}
+{"level":"info","message":"User authenticated: admin@saif.com (admin)","service":"accusations-api","timestamp":"2025-09-21 10:17:39"}
+{"level":"info","message":"Getting user by id: 2","service":"accusations-api","timestamp":"2025-09-21 10:17:39"}
+{"level":"error","message":"Error getting user by id 2: User not found","service":"accusations-api","stack":"Error: User not found\n    at getUserById (file:///app/src/services/users.service.js:40:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchUserById (file:///app/src/controllers/users.controller.js:46:18)","timestamp":"2025-09-21 10:17:39"}
+{"level":"error","message":"Error fetching user by id: User not found","service":"accusations-api","timestamp":"2025-09-21 10:17:39"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:17:39 +0000] \"GET /api/users/2 HTTP/1.1\" 404 26 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:17:39"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:17:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:17:41"}
+{"level":"info","message":"User authenticated: admin@saif.com (admin)","service":"accusations-api","timestamp":"2025-09-21 10:17:47"}
+{"level":"info","message":"Getting users...","service":"accusations-api","timestamp":"2025-09-21 10:17:47"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:17:48 +0000] \"GET /api/users HTTP/1.1\" 200 355 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:17:48"}
+{"level":"info","message":"User authenticated: admin@saif.com (admin)","service":"accusations-api","timestamp":"2025-09-21 10:17:55"}
+{"level":"info","message":"Getting user by id: 4","service":"accusations-api","timestamp":"2025-09-21 10:17:55"}
+{"level":"info","message":"User test@example.com retrieved successfully","service":"accusations-api","timestamp":"2025-09-21 10:17:55"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:17:55 +0000] \"GET /api/users/4 HTTP/1.1\" 200 197 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:17:55"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:18:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:18:11"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:18:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:18:41"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:19:11 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:19:11"}
+{"level":"info","message":"Getting users...","service":"accusations-api","timestamp":"2025-09-21 10:19:12"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:19:13 +0000] \"GET /api/users/ HTTP/1.1\" 200 355 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:19:13"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:19:42 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:19:42"}
+{"email":"admin@admin.com","id":5,"level":"info","message":"User created successfully:","service":"accusations-api","timestamp":"2025-09-21 10:20:07"}
+{"level":"info","message":"User signed up: admin@admin.com with role: admin","service":"accusations-api","timestamp":"2025-09-21 10:20:07"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:20:07 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 122 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:20:07"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:20:12 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:20:12"}
+{"email":"admin@admin.com","id":5,"level":"info","message":"User authenticated successfully:","service":"accusations-api","timestamp":"2025-09-21 10:20:19"}
+{"level":"info","message":"User signed in: admin@admin.com","service":"accusations-api","timestamp":"2025-09-21 10:20:19"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:20:19 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 122 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:20:19"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:20:42 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:20:42"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:21:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:21:12"}
+{"level":"info","message":"User authenticated: admin@admin.com (admin)","service":"accusations-api","timestamp":"2025-09-21 10:21:14"}
+{"level":"info","message":"Deleting user: 4","service":"accusations-api","timestamp":"2025-09-21 10:21:14"}
+{"level":"info","message":"User test@example.com deleted successfully","service":"accusations-api","timestamp":"2025-09-21 10:21:14"}
+{"level":"info","message":"User test@example.com deleted successfully","service":"accusations-api","timestamp":"2025-09-21 10:21:14"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [21/Sep/2025:10:21:14 +0000] \"DELETE /api/users/4 HTTP/1.1\" 200 115 \"-\" \"PostmanRuntime/7.46.1\"","service":"accusations-api","timestamp":"2025-09-21 10:21:14"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:21:42 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:21:42"}
+{"level":"info","message":"::1 - - [21/Sep/2025:10:22:13 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 10:22:13"}
