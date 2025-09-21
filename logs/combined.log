@@ -536,3 +536,16 @@
 {"level":"info","message":"::1 - - [21/Sep/2025:11:01:58 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:01:58"}
 {"level":"info","message":"::1 - - [21/Sep/2025:11:02:29 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:02:29"}
 {"level":"info","message":"::1 - - [21/Sep/2025:11:02:59 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:02:59"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:03:29 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:03:29"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:03:59 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:03:59"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:04:29 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:04:29"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:05:00 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:05:00"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:05:30 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:05:30"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:06:00 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:06:00"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:06:30 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:06:30"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:07:00 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:07:00"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:07:31 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:07:31"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:08:01 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:08:01"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:08:32 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:08:32"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:09:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:09:02"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:09:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"accusations-api","timestamp":"2025-09-21 11:09:33"}
